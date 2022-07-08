@@ -18,6 +18,10 @@
 	.intro--text {
 		height: 250px;
 	}
+	
+	.intro__slider-arrows {
+		display: none;
+	}
 
 	/* Section */
 
@@ -144,10 +148,6 @@
 		left: 50%;
 		transform: translate3d(-50%, -50%, 0);
 		font-size: 100px;
-	}
-
-	.intro__slider-arrows {
-		display: none;
 	}
 
 	/* Request form */
