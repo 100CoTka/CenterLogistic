@@ -8,6 +8,8 @@ $(function () {
 
 	navToggle.on('click', function (event) {
 		event.preventDefault();
+		$(this).toggleClass('active');
+
 		nav.toggleClass('show');
 	})
 
