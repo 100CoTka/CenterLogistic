@@ -187,7 +187,7 @@ $(function () {
 		dots: true,
 		autoplay: true,
 		autoplaySpeed: 5000,
-		speed: 500
+		speed: 1000
 	});
 
 	/* Aos.js 
