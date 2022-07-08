@@ -13,6 +13,11 @@ $(function () {
 		nav.toggleClass('show');
 	})
 
+	$(window).on('scroll resize', function () {
+		navToggle.removeClass('active');
+		nav.removeClass('show');
+	});
+
 	let intro = $('#intro');
 	let header = $('#header');
 	let introH = intro.innerHeight();
