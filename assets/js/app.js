@@ -51,6 +51,9 @@ $(function () {
 		let scrollEl = $(this).data('scroll');
 		let scrollElPos = $(scrollEl).offset().top;
 
+		navToggle.removeClass('active');
+		nav.removeClass('show');
+
 		$('html, body').animate({
 			scrollTop: scrollElPos - headerH
 		}, 500)
