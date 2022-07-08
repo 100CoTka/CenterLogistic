@@ -18,6 +18,10 @@
 	.intro--text {
 		height: 250px;
 	}
+	
+	.intro__slider-arrows {
+		display: none;
+	}
 
 	/* Section */
 
@@ -87,7 +91,8 @@
 	/* Nav */
 	.nav {
 		width: 100%;
-		min-height: calc(100vh - 50px);
+		height: calc(100vh - 50px);
+		overflow: auto;
 		padding-top: 9px;
 		flex-direction: column;
 		position: absolute;
@@ -144,10 +149,6 @@
 		left: 50%;
 		transform: translate3d(-50%, -50%, 0);
 		font-size: 100px;
-	}
-
-	.intro__slider-arrows {
-		display: none;
 	}
 
 	/* Request form */
