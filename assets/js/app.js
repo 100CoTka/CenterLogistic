@@ -8,12 +8,15 @@ $(function () {
 
 	navToggle.on('click', function (event) {
 		event.preventDefault();
-		$(this).toggleClass('active');
 
+		$('body').toggleClass('show-nav');
+		$(this).toggleClass('active');
 		nav.toggleClass('show');
 	})
 
 	$(window).on('scroll resize', function () {
+
+		$('body').removeClass('show-nav');
 		navToggle.removeClass('active');
 		nav.removeClass('show');
 	});
@@ -56,6 +59,7 @@ $(function () {
 		let scrollEl = $(this).data('scroll');
 		let scrollElPos = $(scrollEl).offset().top;
 
+		$('body').removeClass('show-nav');
 		navToggle.removeClass('active');
 		nav.removeClass('show');
 

@@ -80,7 +80,8 @@ ol {
 	transition: background .2s linear;
 }
 
-.header--dark {
+.header--dark,
+body.show-nav .header {
 	background-color: rgba(0, 0, 0, 0.9);
 }
 
