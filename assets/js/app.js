@@ -114,7 +114,7 @@ $(function () {
 				transform: 'scale(1)',
 				opacity: '1'
 			})
-		})
+		}, 100)
 	})
 
 	$('[data-modal-close]').on('click', function (event) {
