@@ -94,6 +94,26 @@ body.show-nav .header {
 	height: 85px;
 }
 
+.header__logo {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header__logo--black {
+	color: #2C2C2C;
+}
+
+.header__logo img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header__logo-text {
+	margin-left: 10px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
 /* Nav */
 
 .nav {
